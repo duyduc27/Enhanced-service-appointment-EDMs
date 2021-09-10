@@ -1,0 +1,53 @@
+%%[ 
+set @ID = AttributeValue('Service_Appointment__c:Id')
+
+set @fullName = AttributeValue('Service_Appointment__c:Non_Owner_Name__c')
+set @bookingID = AttributeValue('Service_Appointment__c:Booking_ID__c')
+set @registrationNo = AttributeValue('Service_Appointment__c:Car_Registration_No__c')
+
+set @dateTime = AttributeValue('Service_Appointment__c:Service_Appointment_Date_Time__c')
+
+if not empty(@dateTime) then
+
+set @dateTime = DateAdd(@dateTime, 8, "H")
+set @timeValue = Format(@dateTime,"hh:mm tt",'Date') 
+set @date = Format(@dateTime," dd MMMM yyyy",'Date')
+set @day = Format(@dateTime,"ddddd")
+
+else
+set @timeValue = '-'
+
+endif
+
+set @pktime = AttributeValue('Service_Appointment__c:Pick_up_Time__c')
+
+if not empty(@pktime) then
+
+set @pktime = DateAdd(@pktime, 8, "H")
+set @pktimeValue = Format(@pktime,"hh:mm tt",'Date')
+set @pkdate = Format(@pktime," dd MMMM yyyy",'Date')
+set @pkday = Format(@pktime,"ddddd")
+
+else
+set @pktimeValue = '-'
+
+endif
+
+set @pkfrom = AttributeValue('Service_Appointment__c:Pick_up_From__c')
+set @pkreturn = AttributeValue('Service_Appointment__c:Return_To__c')
+set @pkindicator = AttributeValue('Service_Appointment__c:PKD_Indicator__c')
+
+set @location = AttributeValue('Service_Appointment__c:Service_Centre_Location__c')
+
+if not empty(@location) then
+
+set @url1  = Replace(@location,' ','%20')
+set @maplink = CONCAT ('https://www.google.com/maps/place/',@url1)
+
+endif
+
+set @remarks= AttributeValue('Service_Appointment__c:Customer_Remarks__c')
+set @mileage= AttributeValue('Service_Appointment__c:Mileage__c')
+set @serviceType= AttributeValue('Service_Appointment__c:Service_Code__c')
+
+]%%

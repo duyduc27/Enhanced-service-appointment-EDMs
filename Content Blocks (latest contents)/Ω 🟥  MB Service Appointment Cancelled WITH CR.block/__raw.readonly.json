@@ -1,0 +1,60 @@
+{
+  "id": 308700,
+  "customerKey": "198a05a8-bea5-4aa8-a927-85d86fab9de9",
+  "objectID": "249dbd8e-8f60-4e7f-af1f-faa271bebb5c",
+  "assetType": {
+    "id": 195,
+    "name": "freeformblock",
+    "displayName": "Free Form Block"
+  },
+  "fileProperties": {
+    "fileName": "MB Service Appointment Cancelled WITH CR"
+  },
+  "name": "MB Service Appointment Cancelled WITH CR",
+  "owner": {
+    "id": 100394715,
+    "email": "aodigyprojects@gmail.com",
+    "name": "Aodigy",
+    "userId": "100394715"
+  },
+  "createdDate": "2021-08-24T11:29:36.187-06:00",
+  "createdBy": {
+    "id": 100394715,
+    "email": "aodigyprojects@gmail.com",
+    "name": "Aodigy",
+    "userId": "100394715"
+  },
+  "modifiedDate": "2021-08-31T22:21:31.807-06:00",
+  "modifiedBy": {
+    "id": 100394715,
+    "email": "aodigyprojects@gmail.com",
+    "name": "Aodigy",
+    "userId": "100394715"
+  },
+  "enterpriseId": 100009103,
+  "memberId": 100014836,
+  "status": {
+    "id": 1,
+    "name": "Draft"
+  },
+  "thumbnail": {
+    "thumbnailUrl": "/v1/assets/308700/thumbnail"
+  },
+  "category": {
+    "id": 351713,
+    "name": "Content Blocks",
+    "parentId": 351703
+  },
+  "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><!--[if mso | IE]>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:600px;\" width=\"600\"><tr><td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"><![endif]--><div style=\"background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;\">\n <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#fff;background-color:#fff;width:100%;\">\n  \n   <tr>\n    <td style=\"direction:ltr;font-size:0px;padding:20px 0;text-align:center;vertical-align:top;\">\n     <!--[if mso | IE]>\n<table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> \n<tr>\n<td style=\"vertical-align:top;width:480px;\">\n<![endif]--><div class=\"mj-column-per-80 outlook-group-fix\" style=\"font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\">\n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\">\n       \n        <tr>\n         <td align=\"left\" style=\"font-size:0px;padding:0;word-break:break-word;\">\n          <div style=\"font-family:Arial;font-size:17px;line-height:1;text-align:left;color:#001c2d;\">\n           <h1>\n            Your appointment at Cycle &amp; Carriage has been cancelled.</h1><p style=\"padding: 10px 0\">\n            Dear %%=v(@fullName)=%%,</p><p>\n            Your appointment details</p></div></td></tr></table></div><!--[if mso | IE]>\n</td>\n</tr>\n</table>\n<![endif]--></td></tr></table></div><!--[if mso | IE]>\n</td>\n</tr>\n</table>\n<![endif]--><!--[if mso | IE]>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:600px;\" width=\"600\">\n<tr>\n<td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\">\n<![endif]--><div style=\"background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;\">\n <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#fff;background-color:#fff;width:100%;\">\n  \n   <tr>\n    <td style=\"direction:ltr;font-size:0px;padding:20px 0;padding-top:0;text-align:center;vertical-align:top;\">\n     <!--[if mso | IE]>\n<table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">    \n<tr>\n<td style=\"vertical-align:top;width:480px;\">\n<![endif]--><div class=\"mj-column-per-80 outlook-group-fix\" style=\"font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\">\n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\">\n       \n        <tr>\n         <td align=\"left\" style=\"font-size:0px;padding:0;word-break:break-word;\">\n          <table border=\"0\" style=\"cellspacing:0;color:#001c2d;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;\">\n           \n            <tr style=\"text-align:left;\" valign=\"top\">\n             <th align=\"left\" style=\"padding:10px 0;width:30%; border-bottom:1px solid #ecedee;\">\n              Booking ID</th><td align=\"left\" style=\"padding:10px 0;width:70%; border-bottom:1px solid #ecedee;\">\n              %%=v(@bookingID)=%%</td></tr><tr style=\"text-align:left;\" valign=\"top\">\n             <th align=\"left\" style=\"padding:10px 0;width:30%;\">\n              Date</th><td align=\"left\" style=\"padding:10px 0;width:70%;\">\n              %%[ IF not empty(@dateTime) then ]%% %%=v(@day)=%%, %%=v(@date)=%% %%[else]%% - %%[endif]%%</td></tr><tr style=\"text-align:left;\" valign=\"top\">\n             <td colspan=\"2\" style=\"border:1px solid #e2e7ee;border-radius:8px !important;border-collapse:separate !important; padding:15px\">\n              <table border=\"0\" style=\"cellspacing:0;color:black;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;\">\n               \n                <tr>\n                 <td colspan=\"2\" style=\"font-size:18px; font-weight:bold; padding-bottom:22px\">\n                  Collect &amp; Return</td></tr><tr>\n                 <td align=\"left\" style=\"width:30%; font-weight:bold; vertical-align:top; padding-bottom:20px\">\n                  Pick up time</td><td align=\"left\" style=\"width:70%; vertical-align:top; padding-bottom:20px\">\n                  %%=v(@pktimeValue)=%%</td></tr><tr>\n                 <td align=\"left\" style=\"width:30%; font-weight:bold; vertical-align:top; padding-bottom:20px\">\n                  From</td><td align=\"left\" style=\"width:70%; vertical-align:top; padding-bottom:20px\">\n                  %%=v(@pkfrom)=%%</td></tr><tr>\n                 <td align=\"left\" style=\"width:30%; font-weight:bold; vertical-align:top; padding-bottom:20px\">\n                  To</td><td align=\"left\" style=\"width:70%; vertical-align:top; padding-bottom:20px\">\n                  %%=v(@pkreturn)=%%</td></tr></table></td></tr><tr style=\"text-align:left;\" valign=\"top\">\n             <th align=\"left\" style=\"padding:10px 0;width:30%; border-bottom:1px solid #ecedee;\">\n              Service Centre</th><td align=\"left\" style=\"padding:10px 0;width:70%; border-bottom:1px solid #ecedee;\">\n              %%=v(@location)=%%<br>\n              %%[IF not empty(@location) then]%% <a href=\"%%=RedirectTo(@maplink)=%%\" style=\"color:#00619E;text-decoration: none;\"> <img src=\"http://image.S10.exacttarget.com/lib/fe4715707564057d761473/m/1/634e1e2d-8859-4331-b128-6d1a1e6142a2.jpg\" style=\"margin-bottom:-4px;\" width=\"22\">Get Directions</a> %%[endif]%%</td></tr><tr style=\"text-align:left;\" valign=\"top\">\n             <th align=\"left\" style=\"padding:10px 0;width:30%; border-bottom:1px solid #ecedee;\">\n              Vehicle Number</th><td align=\"left\" style=\"padding:10px 0;width:70%; border-bottom:1px solid #ecedee;\">\n              %%=v(@registrationNo)=%%</td></tr><tr style=\"text-align:left;\" valign=\"top\">\n             <th align=\"left\" style=\"padding:10px 0;width:30%; border-bottom:1px solid #ecedee;\">\n              Service Type</th><td align=\"left\" style=\"padding:10px 0;width:70%; border-bottom:1px solid #ecedee;\">\n              %%=v(@serviceType)=%%</td></tr><tr style=\"text-align:left;\" valign=\"top\">\n             <th align=\"left\" style=\"padding:10px 0;width:30%; border-bottom:1px solid #ecedee;\">\n              Remarks</th><td align=\"left\" style=\"padding:10px 0;width:70%; border-bottom:1px solid #ecedee;\">\n              %%=v(@remarks)=%%</td></tr><tr style=\"text-align:left;\" valign=\"top\">\n             <th align=\"left\" style=\"padding:10px 0;width:30%; border-bottom:1px solid #ecedee;\">\n              Mileage (km)</th><td align=\"left\" style=\"padding:10px 0;width:70%; border-bottom:1px solid #ecedee;\">\n              %%=v(@mileage)=%%</td></tr></table></td></tr></table></div><!--[if mso | IE]>\n</td>\n</tr>\n</table>\n<![endif]--></td></tr></table></div><!--[if mso | IE]>\n</td>\n</tr>\n</table>\n<![endif]--><!--[if mso | IE]>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:600px;\" width=\"600\">\n<tr>\n<td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\">\n<![endif]--><div style=\"background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;\">\n <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#fff;background-color:#fff;width:100%;\">\n  \n   <tr>\n    <td style=\"direction:ltr;font-size:0px;padding:0 0 20px 0;text-align:center;vertical-align:top;\">\n     <!--[if mso | IE]>\n<table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tr>\n<td style=\"vertical-align:top;width:480px;\">\n<![endif]--><div class=\"mj-column-per-80 outlook-group-fix\" style=\"font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\">\n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">\n       \n        <tr>\n         <td style=\"vertical-align:top;padding:0;\">\n          <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\">\n           <!--[if (gte mso 9)|(IE)]>\n<style>\n.info-box {\nbackground: #F7F8FA;\n}\n.info-box .mobile-grey {\nbackground: #F7F8FA;\n}\n</style>\n<![endif]-->\n            <tr>\n             <td align=\"left\" style=\"font-size:0px;padding:0;word-break:break-word;\">\n              <div style=\"font-family:Arial;font-size:11.7px;line-height:15.8px;text-align:left;color:#516173;\">\n               <p>\n                *If you have booked an express service, please note that our complimentary car wash service is not included within the express service 60-min turnaround time. You can request for this service at the point of reception and our staff will advise on additional time required.</p></div></td></tr></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"info-box\" style=\"padding:0;\">\n           \n            <tr>\n             <td class=\"mobile-grey\" height=\"16\" width=\"224\">\n             </td><td rowspan=\"2\" width=\"32\">\n              <img src=\"https://s3-ap-southeast-1.amazonaws.com/jcc-edm/info.png\" style=\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;\" width=\"32\"></td><td class=\"mobile-grey\" height=\"16\" width=\"224\">\n             </td></tr><tr>\n             <td colspan=\"3\" height=\"16\" style=\"background:#F7F8FA;border-top-left-radius:8px;border-top-right-radius:8px;\">\n              &nbsp;</td></tr><tr>\n             <td colspan=\"3\" style=\"background:#F7F8FA;color:#516173;font-family:Arial;padding:0 20px;font-size:14px;line-height:15.8px;text-align:center; \">\n              <p style=\"font-weight:bold;margin-top: 1em;margin-bottom: 1em;\">\n               Can&rsquo;t make it for this appointment?</p><p style=\"margin-top: 1em;margin-bottom: 1em;\">\n               Reschedule or cancel your appointment on the myMB app, or contact Customer Assistance at <a href=\"tel:64719111\">6471&nbsp;9111</a>.</p></td></tr><tr>\n             <td colspan=\"3\" height=\"16\" style=\"background:#F7F8FA;border-bottom-left-radius:8px;border-bottom-right-radius:8px;\">\n             </td></tr></table><br>\n          <br>\n          &nbsp;</td></tr></table></div></td></tr></table></div><!--[if mso | IE]>\n</td>\n</tr>\n</table>\n<![endif]--></td></tr></table>",
+  "design": "",
+  "meta": {
+    "wrapperStyles": {
+      "mobile": {
+        "visible": true
+      },
+      "styling": {}
+    }
+  },
+  "availableViews": [],
+  "modelVersion": 2
+}

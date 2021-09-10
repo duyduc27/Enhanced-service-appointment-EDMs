@@ -1,0 +1,277 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!--[if mso | IE]>
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600"><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><div style="background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;">
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff;background-color:#fff;width:100%;">
+  
+   <tr>
+    <td style="direction:ltr;font-size:0px;padding:20px 0 0 0;text-align:center;vertical-align:top;">
+     <!--[if mso | IE]>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0"> 
+  <tr>
+  <td style="vertical-align:top;width:480px;">
+  <![endif]--><div class="mj-column-per-80 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+       
+        <tr>
+         <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+          <div style="font-family:Arial;font-size:17px;line-height:1;text-align:left;color:#001c2d;">
+           <h1>
+            Your appointment at Cycle &amp; Carriage has been confirmed.</h1><p style="padding: 10px 0px">
+            Dear %%=v(@fullName)=%%,</p><table border="0" cellpadding="0" cellspacing="0" class="info-box" style="padding:0;">
+            
+             <tr>
+              <td class="mobile-grey" height="16" width="224">
+              </td><td rowspan="2" width="32">
+               <img src="https://www.cyclecarriage.com/sg/-/media/JCCL/Images/shared/edms/misc/qrround.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="32"></td><td class="mobile-grey" height="16" width="224">
+              </td></tr><tr>
+              <td colspan="3" height="16" style="background:#F7F8FA;border-top-left-radius:8px;border-top-right-radius:8px;">
+               &nbsp;</td></tr><tr>
+              <td colspan="3" style="background:#F7F8FA;color:#516173;font-family:Arial;padding:0 20px;font-size:14px;line-height:15.8px;text-align:center; ">
+               <p style="font-size:12px;margin-top: 1em;margin-bottom: 1em;">
+                Faster Check-in at our Service Center</p><p style="margin-top: 1em;margin-bottom: 1em;">
+                Just scan your vehicle QR Code at the service check-in kiosk</p><p style="margin-top: 1em;margin-bottom: 1em;">
+                Get your QR Code <a href="%%=RedirectTo(@QRCodeURL)=%%">here</a><br>
+                or log in to myMB app and go to Car Details screen</p></td></tr><tr>
+              <td colspan="3" height="16" style="background:#F7F8FA;border-bottom-left-radius:8px;border-bottom-right-radius:8px;">
+              </td></tr></table><p style="padding: 10px 0px 5px 0px">
+            Your appointment details</p></div></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--><!--[if mso | IE]>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600">
+  <tr>
+  <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+  <![endif]--><div style="background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;">
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff;background-color:#fff;width:100%;">
+  
+   <tr>
+    <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0;text-align:center;vertical-align:top;">
+     <!--[if mso | IE]>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0">    
+  <tr>
+  <td style="vertical-align:top;width:480px;">
+  <![endif]--><div class="mj-column-per-80 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+       
+        <tr>
+         <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+          <table border="0" style="cellspacing:0;color:#001c2d;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;">
+           
+            <tr style="text-align:left;" valign="top">
+             <th align="left" style="padding:10px 0;width:30%; border-bottom:1px solid #ecedee;">
+              Booking ID</th><td align="left" style="padding:10px 0;width:70%; border-bottom:1px solid #ecedee;">
+              %%=v(@bookingID)=%%</td></tr><tr style="text-align:left;" valign="top">
+             <th align="left" style="padding:10px 0;width:30%;">
+              Date</th><td align="left" style="padding:10px 0;width:70%;">
+              %%[ IF not empty(@dateTime) then ]%% %%=v(@day)=%%, %%=v(@date)=%% %%[else]%% - %%[endif]%%</td></tr><tr style="text-align:left;" valign="top">
+             <td colspan="2" style="border:1px solid #e2e7ee;border-radius:8px !important;border-collapse:separate !important; padding:15px">
+              <table border="0" style="cellspacing:0;color:black;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;">
+               
+                <tr>
+                 <td colspan="2" style="font-size:18px; font-weight:bold; padding-bottom:22px">
+                  Collect &amp; Return</td></tr><tr>
+                 <td align="left" style="width:30%; font-weight:bold; vertical-align:top; padding-bottom:20px">
+                  Pick up time</td><td align="left" style="width:70%; vertical-align:top; padding-bottom:20px">
+                  %%=v(@pktimeValue)=%%</td></tr><tr>
+                 <td align="left" style="width:30%; font-weight:bold; vertical-align:top; padding-bottom:20px">
+                  From</td><td align="left" style="width:70%; vertical-align:top; padding-bottom:20px">
+                  %%=v(@pkfrom)=%%</td></tr><tr>
+                 <td align="left" style="width:30%; font-weight:bold; vertical-align:top; padding-bottom:20px">
+                  To</td><td align="left" style="width:70%; vertical-align:top; padding-bottom:20px">
+                  %%=v(@pkreturn)=%%</td></tr></table></td></tr><tr style="text-align:left;" valign="top">
+             <th align="left" style="padding:10px 0;width:30%; border-bottom:1px solid #ecedee;">
+              Service Centre</th><td align="left" style="padding:10px 0;width:70%; border-bottom:1px solid #ecedee;">
+              %%=v(@location)=%%<br>
+              %%[IF not empty(@location) then]%% <a href="%%=RedirectTo(@maplink)=%%" style="color:#00619E;text-decoration: none;"> <img src="http://image.S10.exacttarget.com/lib/fe4715707564057d761473/m/1/634e1e2d-8859-4331-b128-6d1a1e6142a2.jpg" style="margin-bottom:-4px;" width="22">Get Directions</a> %%[endif]%%</td></tr><tr style="text-align:left;" valign="top">
+             <th align="left" style="padding:10px 0;width:30%; border-bottom:1px solid #ecedee;">
+              Vehicle Number</th><td align="left" style="padding:10px 0;width:70%; border-bottom:1px solid #ecedee;">
+              %%=v(@registrationNo)=%%</td></tr><tr style="text-align:left;" valign="top">
+             <th align="left" style="padding:10px 0;width:30%; border-bottom:1px solid #ecedee;">
+              Service Type</th><td align="left" style="padding:10px 0;width:70%; border-bottom:1px solid #ecedee;">
+              %%=v(@serviceType)=%%</td></tr><tr style="text-align:left;" valign="top">
+             <th align="left" style="padding:10px 0;width:30%; border-bottom:1px solid #ecedee;">
+              Remarks</th><td align="left" style="padding:10px 0;width:70%; border-bottom:1px solid #ecedee;">
+              %%=v(@remarks)=%%</td></tr><tr style="text-align:left;" valign="top">
+             <th align="left" style="padding:10px 0;width:30%; border-bottom:1px solid #ecedee;">
+              Mileage (km)</th><td align="left" style="padding:10px 0;width:70%; border-bottom:1px solid #ecedee;">
+              %%=v(@mileage)=%%</td></tr></table></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--><!--[if mso | IE]>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600">
+  <tr>
+  <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+  <![endif]--><div style="background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;">
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff;background-color:#fff;width:100%;">
+  
+   <tr>
+    <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0;text-align:center;vertical-align:top;">
+     <!--[if mso | IE]>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+  <td style="vertical-align:top;width:480px;">
+  <![endif]--><div class="mj-column-per-80 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+       
+        <tr>
+         <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+          <div style="font-family:Arial;font-size:11.7px;line-height:15.8px;text-align:left;color:#516173;">
+           <p>
+            *If you have booked an express service, please note that our complimentary car wash service is not included within the express service 60-min turnaround time. You can request for this service at the point of reception and our staff will advise on additional time required.</p></div></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--><!--[if mso | IE]>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600">
+  <tr>
+  <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+  <![endif]--><div style="background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;">
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff;background-color:#fff;width:100%;">
+  
+   <tr>
+    <td style="direction:ltr;font-size:0px;padding:0 0 20px 0;text-align:center;vertical-align:top;">
+     <!--[if mso | IE]>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+  <td style="vertical-align:top;width:480px;">
+  <![endif]--><div class="mj-column-per-80 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+       
+        <tr>
+         <td style="vertical-align:top;padding:0;">
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+           <!--[if (gte mso 9)|(IE)]>
+  <style>
+  .info-box {
+  background: #F7F8FA;
+  }
+  .info-box .mobile-grey {
+  background: #F7F8FA;
+  }
+  </style>
+  <![endif]--></table><table border="0" cellpadding="0" cellspacing="0" class="info-box" style="padding:0;">
+           
+            <tr>
+             <td class="mobile-grey" height="16" width="224">
+             </td><td rowspan="2" width="32">
+              <img src="https://s3-ap-southeast-1.amazonaws.com/jcc-edm/info.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="32"></td><td class="mobile-grey" height="16" width="224">
+             </td></tr><tr>
+             <td colspan="3" height="16" style="background:#F7F8FA;border-top-left-radius:8px;border-top-right-radius:8px;">
+              &nbsp;</td></tr><tr>
+             <td colspan="3" style="background:#F7F8FA;color:#516173;font-family:Arial;padding:0 20px;font-size:14px;line-height:15.8px;text-align:center; ">
+              <p style="font-weight:bold;margin-top: 1em;margin-bottom: 1em;">
+               Can&rsquo;t make it for this appointment?</p><p style="margin-top: 1em;margin-bottom: 1em;">
+               Reschedule or cancel your appointment on the myMB mobile app, or contact Customer Assistance at <a href="tel:64719111">6471&nbsp;9111</a>.</p></td></tr><tr>
+             <td colspan="3" height="16" style="background:#F7F8FA;border-bottom-left-radius:8px;border-bottom-right-radius:8px;">
+             </td></tr></table></td></tr></table></div></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--><!--[if mso | IE]>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600">
+  <tr>
+  <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+  <![endif]--><div style="background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;">
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff;background-color:#fff;width:100%;">
+  
+   <tr>
+    <td style="direction:ltr;font-size:0px;padding:0 0 20px 0;text-align:center;vertical-align:top;">
+     <!--[if mso | IE]>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0"> 
+  <tr>
+  <td style="vertical-align:top;width:480px;">
+  <![endif]--><div class="mj-column-per-80 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+       
+        <tr>
+         <td style="vertical-align:top;padding:0;">
+          <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+           
+            <tr>
+             <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+              <div>
+               <h2 style="font-family:Arial;font-size:20px;line-height:1;text-align:left;color:#001c2d;">
+                At Cycle &amp; Carriage, you enjoy these benefits when you service your car.</h2></div></td></tr></table></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--><!--[if mso | IE]>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600">
+  <tr>
+  <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+  <![endif]--><div style="background:#fff;background-color:#fff;Margin:0px auto;max-width:600px;">
+ <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff;background-color:#fff;width:100%;">
+  
+   <tr>
+    <td style="direction:ltr;font-size:0px;padding:0 0 20px 0;text-align:center;vertical-align:top;">
+     <!--[if mso | IE]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0">   
+<tr>
+<td style="vertical-align:top;width:480px;">
+<![endif]--><div class="mj-column-per-80 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+      </table><table border="0" cellpadding="0" cellspacing="0" style="background:#E2E7EE; border-radius:8px;" width="100%">
+       
+        <tr>
+         <td style="padding:1px;">
+          <table border="0" cellpadding="0" cellspacing="0" class="info-list" style="padding:0;background:#fff;border-radius:8px;font-family:Arial;font-size:11.7px;line-height:15.8px;text-align:center;" width="100%">
+           
+            <tr>
+             <td class="info-list_left">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+               
+                <tr>
+                 <td style="width:100%;">
+                  <img height="auto" src="http://image.S10.exacttarget.com/lib/fe4715707564057d761473/m/1/fc342ae1-66d2-4a15-94e3-599ec4b97865.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="80"></td></tr></table></td><td class="info-list_right" style="text-align:left;">
+              <h3>
+               Night Drop-off</h3><p>
+               Send your car in after work hours &ndash; even at midnight. Drop off your car at the security post at any of our service centres.</p></td></tr><tr>
+             <td class="info-list_left">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+               
+                <tr>
+                 <td style="width:100%;">
+                  <img height="auto" src="http://image.S10.exacttarget.com/lib/fe4715707564057d761473/m/1/825458ab-a6d7-40d6-9ca7-27d5c56ecbf7.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="80"></td></tr></table></td><td class="info-list_right" style="text-align:left;">
+              <h3>
+               Complimentary Shuttle Buses</h3><p>
+               Free shuttle bus services depart to the nearest MRT station every half an hour* between 8.30am and 10.30am on weekdays, at our main service centres.</p><p style="font-size: 12px;">
+               *Check directly with service centre reception for exact timings.</p></td></tr><tr>
+             <td class="info-list_left">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+               
+                <tr>
+                 <td style="width:100%;">
+                  <img height="auto" src="http://image.S10.exacttarget.com/lib/fe4715707564057d761473/m/1/73d2c5b5-e4b1-4ffc-97f1-2c7a89ec8f99.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="80"></td></tr></table></td><td class="info-list_right" style="text-align:left;">
+              <h3>
+               Complimentary Car Wash</h3><p>
+               Free car wash and vacuuming services are available after servicing and repairs.</p></td></tr><tr>
+             <td class="info-list_left">
+              <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+               
+                <tr>
+                 <td style="width:100%;">
+                  <img height="auto" src="http://image.s10.exacttarget.com/lib/fe4715707564057d761473/m/1/22967cfa-3e45-4b6b-9647-fd2c4ea162f1.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;" width="80"></td></tr></table></td><td class="info-list_right no-border" style="text-align:left;">
+              <h3>
+               Authorised Service Centre Amenities</h3><p>
+               Enjoy complimentary refreshments, TV, magazines and newspapers at our service centres.</p></td></tr></table></td></tr></table></div></td></tr></table></div><!--[if mso | IE]>
+  </td>
+  </tr>
+  </table>
+  <![endif]--></td></tr></table>
